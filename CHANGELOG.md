@@ -11,6 +11,7 @@ Other changes:
 - Added an `.inf` installer for every combination of arrow style and loading animation (12 in total). Each one installs into its own folder under `C:\Windows\Cursors` and registers a separate scheme name, so several of them can be installed and compared side by side
 - Moved all cursors and installers into the `src` folder
 - Updated the README: new banner, showcase table now lists `arrow_no_tail_smaller`, and the install instructions point to the "Code" > "Download ZIP" button
+- Redrew every preview image in the Showcase from the cursor files themselves, so they all share the same 78x78 canvas, the same 1:1 cursor size and dotted guides crossing at the hotspot
 
 ### 3.6.1
 - Removed the assymetric corner pixel in regular arrow cursors (`arrow`, `help` and `working`)
