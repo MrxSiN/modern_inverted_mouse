@@ -1,10 +1,10 @@
 <img alt="Modern Inverted Mouse Cursors for Windows" src="./screenshots/title.png" />
 
-[![GitHub Release](https://img.shields.io/github/v/release/emvaized/modern_inverted_mouse_cursors?&label=latest+release)](https://github.com/emvaized/modern_inverted_mouse_cursors/releases)
-![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/emvaized/modern_inverted_mouse_cursors/total?label=downloads&logo=github)
+[![GitHub Release](https://img.shields.io/github/v/release/MrxSiN/modern_inverted_mouse?&label=latest+release)](https://github.com/MrxSiN/modern_inverted_mouse/releases)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/MrxSiN/modern_inverted_mouse/total?label=downloads&logo=github)
 [![DeviantArt Views](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbackend.deviantart.com%2Foembed%3Furl%3Dhttps%3A%2F%2Fwww.deviantart.com%2Femvaized%2Fart%2FModern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934&query=%24.community.statistics._attributes.views&logo=DeviantArt&logoColor=00e59b&label=views&labelColor=black&color=grey)](https://www.deviantart.com/emvaized/art/Modern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934)
-<!-- [![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/emvaized/modern_inverted_mouse_cursors/total?label=total+downloads&logo=github)](https://github.com/emvaized/modern_inverted_mouse_cursors/releases)
-[![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/emvaized/modern_inverted_mouse_cursors/latest/total?logo=github&label=downloads+(latest))](https://github.com/emvaized/modern_inverted_mouse_cursors/releases/latest) -->
+<!-- [![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/MrxSiN/modern_inverted_mouse/total?label=total+downloads&logo=github)](https://github.com/MrxSiN/modern_inverted_mouse/releases)
+[![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/MrxSiN/modern_inverted_mouse/latest/total?logo=github&label=downloads+(latest))](https://github.com/MrxSiN/modern_inverted_mouse/releases/latest) -->
 <!-- [![DeviantArt Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbackend.deviantart.com%2Foembed%3Furl%3Dhttps%3A%2F%2Fwww.deviantart.com%2Femvaized%2Fart%2FModern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934&query=%24.community.statistics._attributes.downloads&label=downloads&logo=DeviantArt&logoColor=00e59b&labelColor=black&color=grey)](https://www.deviantart.com/emvaized/art/Modern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934) -->
 <!-- [![Support project](https://shields.io/badge/Ko--fi-Support_project-ff5f5f?logo=Ko-Fi&style=for-the-badgeKo-fi)](https://ko-fi.com/emvaized) -->
 <!-- [![DeviantArt](https://img.shields.io/badge/DeviantArt-grey?logo=deviantart&logoColor=green&labelColor=black)](https://www.deviantart.com/emvaized/art/Modern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934) -->
@@ -52,15 +52,41 @@ With this cursor pack you will never lose your cursor on the screen again! Just 
 | `vertical_v2`                   | <img src="screenshots/cursors_single/vertical_v2.png" height=50 /> | `working_tail_detached`              | <img src="screenshots/cursors_single/working_tail_detached.gif" height=50 />   
 
 
+### Loading animation styles
+
+The rotating wheel is no longer the only option. Three extra loading animations are available for the `busy` and `working` (application starting) cursors. They avoid rotation entirely, which reads better at small sizes and in 1-bit black and white. All of them keep the same inverted design as the rest of the pack: 32&times;32, 1-bit colour depth, 16 frames, roughly a one second loop.
+
+| Style | `busy` | `working` | Description |
+|-------|--------|-----------|-------------|
+| Wheel (original) | <img src="screenshots/cursors_single/busy.gif" height=50 /> | <img src="screenshots/cursors_single/working.gif" height=50 /> | The original rotating pie wheel. |
+| Pulse | <img src="screenshots/cursors_single/busy_pulse.gif" height=50 /> | <img src="screenshots/cursors_single/working_pulse.gif" height=50 /> | Three dots swelling one after another. |
+| Bounce | <img src="screenshots/cursors_single/busy_bounce.gif" height=50 /> | <img src="screenshots/cursors_single/working_bounce.gif" height=50 /> | Three dots hopping in sequence. |
+| Ripple | <img src="screenshots/cursors_single/busy_ripple.gif" height=50 /> | <img src="screenshots/cursors_single/working_ripple.gif" height=50 /> | A ring expanding outwards from a steady centre dot, like a radar ping. |
+
+Every loading style is also built for the "no tail" and "tail detached" arrows, so the file you want is named `working[_arrow_style]_[animation].ani` &mdash; for example `working_no_tail_pulse.ani` or `working_tail_detached_ripple.ani`. The `busy` cursor has no arrow in it, so it is simply `busy_pulse.ani`, `busy_bounce.ani` or `busy_ripple.ani`.
+
+
 <!-- </details> -->
 
 ## How to install: 
-1. Download the [latest release](https://www.patreon.com/emvaized/shop/modern-inverted-mouse-cursors-for-10-11-924356)
-2. Extract downloaded .zip archive to any folder
-3. Locate `cursors/Install.inf` file for "regular" or "no tail" style, right click on that `.inf` file and select "Install"
-3. Open Control Panel and navigate to "Mouse Properties" > "Pointers"
-4. Select the style you installed and click "Apply"
-5. (optional) Double click any cursor type and select any other desired cursor from the extracted folder, if you want alternative version
+1. Download the [latest release](https://github.com/MrxSiN/modern_inverted_mouse/releases)
+2. Extract the downloaded .zip archive to any folder
+3. Pick the `.inf` file matching the arrow style and loading animation you want (see the table below), right click it and select "Install"
+4. Open Control Panel and navigate to "Mouse Properties" > "Pointers"
+5. Select the scheme you installed and click "Apply"
+6. (optional) Double click any cursor type and select a different file from the extracted folder, if you prefer an alternative version
+
+### Available install files
+
+Every combination of arrow style and loading animation has its own `.inf`:
+
+| Arrow style | Wheel (original) | Pulse | Bounce | Ripple |
+|-------------|------------------|-------|--------|--------|
+| Regular | `Install.inf` | `Install_pulse.inf` | `Install_bounce.inf` | `Install_ripple.inf` |
+| No tail | `Install_no_tail.inf` | `Install_no_tail_pulse.inf` | `Install_no_tail_bounce.inf` | `Install_no_tail_ripple.inf` |
+| Tail detached | `Install_tail_detached.inf` | `Install_tail_detached_pulse.inf` | `Install_tail_detached_bounce.inf` | `Install_tail_detached_ripple.inf` |
+
+Each file installs its cursors into its own folder under `C:\Windows\Cursors` and registers a separate scheme name, such as "Modern Inverted No Tail (Ripple)". Nothing overwrites anything else, so you can install several of them and compare the schemes side by side in Mouse Properties before settling on one.
 
 ## How to change specific cursors? 
 

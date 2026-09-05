@@ -1,0 +1,52 @@
+; Modern Inverted Mouse Cursors for Windows - Modern Inverted Tail Detached (Pulse) style
+; Right click this file and select "Install", then open
+; Control Panel > Mouse Properties > Pointers, pick the scheme and click Apply.
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",0x00020000,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+"arrow_tail_detached.cur"
+"help_tail_detached.cur"
+"working_tail_detached_pulse.ani"
+"busy_pulse.ani"
+"cross.cur"
+"beam.cur"
+"pen.cur"
+"unavailable.cur"
+"vertical.cur"
+"horizontal.cur"
+"diagonal_1.cur"
+"diagonal_2.cur"
+"move.cur"
+"special.cur"
+"link.cur"
+
+[Strings]
+CUR_DIR       = "Cursors\Modern Inverted Tail Detached Pulse"
+SCHEME_NAME   = "Modern Inverted Tail Detached (Pulse)"
+pointer       = "arrow_tail_detached.cur"
+help          = "help_tail_detached.cur"
+work          = "working_tail_detached_pulse.ani"
+busy          = "busy_pulse.ani"
+cross         = "cross.cur"
+text          = "beam.cur"
+hand          = "pen.cur"
+unavailable   = "unavailable.cur"
+vert          = "vertical.cur"
+horz          = "horizontal.cur"
+dgn1          = "diagonal_1.cur"
+dgn2          = "diagonal_2.cur"
+move          = "move.cur"
+alternate     = "special.cur"
+link          = "link.cur"
