@@ -29,6 +29,9 @@ With this cursor pack you will never lose your cursor on the screen again! Just 
 |-----------------------------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------|
 | `arrow`                     | <img src="screenshots/cursors_single/arrow.png" height=50 />  | <img src="screenshots/cursors_single/arrow_no_tail.png" height=50 /> or <img src="screenshots/cursors_single/arrow_no_tail_smaller.png" height=50 />  | <img src="screenshots/cursors_single/arrow_tail_detached.png" height=50 />  |
 | `working`                   | <img src="screenshots/cursors_single/working.gif" height=50 /> | <img src="screenshots/cursors_single/working_no_tail.gif" height=50 /> | <img src="screenshots/cursors_single/working_tail_detached.gif" height=50 /> or <img src="screenshots/cursors_single/working_tail_detached_v2.gif" height=50 /> |
+| `working_pulse`             | <img src="screenshots/cursors_single/working_pulse.gif" height=50 /> | <img src="screenshots/cursors_single/working_no_tail_pulse.gif" height=50 /> | <img src="screenshots/cursors_single/working_tail_detached_pulse.gif" height=50 /> |
+| `working_bounce`             | <img src="screenshots/cursors_single/working_bounce.gif" height=50 /> | <img src="screenshots/cursors_single/working_no_tail_bounce.gif" height=50 /> | <img src="screenshots/cursors_single/working_tail_detached_bounce.gif" height=50 /> |
+| `working_ripple`             | <img src="screenshots/cursors_single/working_ripple.gif" height=50 /> | <img src="screenshots/cursors_single/working_no_tail_ripple.gif" height=50 /> | <img src="screenshots/cursors_single/working_tail_detached_ripple.gif" height=50 /> |
 | `help`                      | <img src="screenshots/cursors_single/help.png" height=50 />   | <img src="screenshots/cursors_single/help_no_tail.png" height=50 />   | <img src="screenshots/cursors_single/help_tail_detached.png" height=50 />   |
 
 
@@ -37,6 +40,8 @@ With this cursor pack you will never lose your cursor on the screen again! Just 
 |----------------------------|-----------------------------------------------------------------|----------------------------|-----------------------------------------------------------------|
  `beam`                    | <img src="screenshots/cursors_single/beam.png" height=50 />       | `beam_v2`                       | <img src="screenshots/cursors_single/beam_v2.png" height=50 />          | 
  `busy`                      | <img src="screenshots/cursors_single/busy.gif" height=50 />         |  `cross`                      | <img src="screenshots/cursors_single/cross.png" height=50 />         |
+ `busy_pulse`                | <img src="screenshots/cursors_single/busy_pulse.gif" height=50 />   | `busy_bounce`                | <img src="screenshots/cursors_single/busy_bounce.gif" height=50 />   |
+ `busy_ripple`               | <img src="screenshots/cursors_single/busy_ripple.gif" height=50 />  |                              |                                 |
   `diagonal_1`                 | <img src="screenshots/cursors_single/diagonal_1.png" height=50 />    | `diagonal_2`                 | <img src="screenshots/cursors_single/diagonal_2.png" height=50 /> |
 `horizontal`            | <img src="screenshots/cursors_single/horizontal.png" height=50 /> | `horizontal_v2`                 | <img src="screenshots/cursors_single/horizontal_v2.png" height=50 />    |
 | `link`                    | <img src="screenshots/cursors_single/link.png" height=50 />      | `link_v2`                       | <img src="screenshots/cursors_single/link_v2.png" height=50 />          |
