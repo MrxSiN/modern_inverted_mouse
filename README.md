@@ -1,15 +1,10 @@
-<img alt="Modern Inverted Mouse Cursors for Windows" src="./screenshots/title.png" />
+<img alt="Modern Inverted Mouse for Windows" src="./screenshots/title.png" />
 
-[![GitHub Release](https://img.shields.io/github/v/release/MrxSiN/modern_inverted_mouse?&label=latest+release)](https://github.com/MrxSiN/modern_inverted_mouse/releases)
-![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/MrxSiN/modern_inverted_mouse/total?label=downloads&logo=github)
-[![DeviantArt Views](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbackend.deviantart.com%2Foembed%3Furl%3Dhttps%3A%2F%2Fwww.deviantart.com%2Femvaized%2Fart%2FModern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934&query=%24.community.statistics._attributes.views&logo=DeviantArt&logoColor=00e59b&label=views&labelColor=black&color=grey)](https://www.deviantart.com/emvaized/art/Modern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934)
 <!-- [![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/MrxSiN/modern_inverted_mouse/total?label=total+downloads&logo=github)](https://github.com/MrxSiN/modern_inverted_mouse/releases)
 [![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/MrxSiN/modern_inverted_mouse/latest/total?logo=github&label=downloads+(latest))](https://github.com/MrxSiN/modern_inverted_mouse/releases/latest) -->
 <!-- [![DeviantArt Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbackend.deviantart.com%2Foembed%3Furl%3Dhttps%3A%2F%2Fwww.deviantart.com%2Femvaized%2Fart%2FModern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934&query=%24.community.statistics._attributes.downloads&label=downloads&logo=DeviantArt&logoColor=00e59b&labelColor=black&color=grey)](https://www.deviantart.com/emvaized/art/Modern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934) -->
 <!-- [![Support project](https://shields.io/badge/Ko--fi-Support_project-ff5f5f?logo=Ko-Fi&style=for-the-badgeKo-fi)](https://ko-fi.com/emvaized) -->
 <!-- [![DeviantArt](https://img.shields.io/badge/DeviantArt-grey?logo=deviantart&logoColor=green&labelColor=black)](https://www.deviantart.com/emvaized/art/Modern-Inverted-Mouse-Cursors-for-Windows-10-11-1016675934) -->
-
-### ❤️ Support this project by downloading it from [Patreon](https://www.patreon.com/emvaized/shop/modern-inverted-mouse-cursors-for-10-11-924356)
 
 This project aims to recreate standard inverted mouse cursors with a more modern design. This cursor inverts the colors behind it, and this way it always stands out no matter the background. Although this feature was originally designed for people with vision problems, others could greatly benefit from it as well! 
 
@@ -32,7 +27,7 @@ With this cursor pack you will never lose your cursor on the screen again! Just 
 
 |                             | Regular                                                        | No tail                                                      | Tail detached                                              |
 |-----------------------------|----------------------------------------------------------------|---------------------------------------------------------------|-------------------------------------------------------------|
-| `arrow`                     | <img src="screenshots/cursors_single/arrow.png" height=50 />  | <img src="screenshots/cursors_single/arrow_no_tail.png" height=50 />  | <img src="screenshots/cursors_single/arrow_tail_detached.png" height=50 />  |
+| `arrow`                     | <img src="screenshots/cursors_single/arrow.png" height=50 />  | <img src="screenshots/cursors_single/arrow_no_tail.png" height=50 /> or <img src="screenshots/cursors_single/arrow_no_tail_smaller.png" height=50 />  | <img src="screenshots/cursors_single/arrow_tail_detached.png" height=50 />  |
 | `working`                   | <img src="screenshots/cursors_single/working.gif" height=50 /> | <img src="screenshots/cursors_single/working_no_tail.gif" height=50 /> | <img src="screenshots/cursors_single/working_tail_detached.gif" height=50 /> or <img src="screenshots/cursors_single/working_tail_detached_v2.gif" height=50 /> |
 | `help`                      | <img src="screenshots/cursors_single/help.png" height=50 />   | <img src="screenshots/cursors_single/help_no_tail.png" height=50 />   | <img src="screenshots/cursors_single/help_tail_detached.png" height=50 />   |
 
@@ -69,7 +64,7 @@ Every loading style is also built for the "no tail" and "tail detached" arrows, 
 <!-- </details> -->
 
 ## How to install: 
-1. Download the [latest release](https://github.com/MrxSiN/modern_inverted_mouse/releases)
+1. Click the green "Code" button at the top of this page, then select "Download ZIP"
 2. Extract the downloaded .zip archive to any folder
 3. Pick the `.inf` file matching the arrow style and loading animation you want (see the table below), right click it and select "Install"
 4. Open Control Panel and navigate to "Mouse Properties" > "Pointers"
@@ -105,7 +100,3 @@ All cursors were created using [Realworld Cursor Editor](http://www.rw-designer.
 >Therefore I converted most of cursors in this pack to 1-bit color depth, and as an upside, their size is greatly smaller than regular version (2.19kbs per cursor compared to 22.9kbs), while they look and feel pretty much the same. Also, default inverted cursors in Windows are also 1-bit, so it's probably the best way to do it. However, in the future if we decide to add some colorful elements to cursors, and no longer stick to the current black'n'white design, it may be needed to increase the color depth.
 </details>
 
-## Support ❤️
-If you really enjoy this project, please consider supporting its further development by making a small donation using one of the ways below! 
-
-<a href="https://ko-fi.com/emvaized"><img src="https://storage.ko-fi.com/cdn/kofi5.png" alt="Support on Ko-fi" height="40"></a> &nbsp; <a href="https://liberapay.com/emvaized/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" height="40"></a> &nbsp; <a href="https://emvaized.github.io/donate/bitcoin/"><img src="https://github.com/emvaized/emvaized.github.io/blob/main/donate/bitcoin/assets/bitcoin-donate-button.png?raw=true" alt="Donate Bitcoin" height="40" /></a>

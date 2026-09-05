@@ -1,3 +1,17 @@
+### 3.7.0
+
+Added three new loading animation styles for the `busy` and `working` cursors, as an alternative to the original rotating wheel. They avoid rotation entirely, which reads better at small sizes and in 1-bit black and white:
+- `pulse` — three dots swelling one after another <br> <img src="./screenshots/cursors_single/busy_pulse.gif"> <img src="./screenshots/cursors_single/working_pulse.gif">
+- `bounce` — three dots hopping in sequence <br> <img src="./screenshots/cursors_single/busy_bounce.gif"> <img src="./screenshots/cursors_single/working_bounce.gif">
+- `ripple` — a ring expanding outwards from a steady centre dot <br> <img src="./screenshots/cursors_single/busy_ripple.gif"> <img src="./screenshots/cursors_single/working_ripple.gif">
+
+Every loading style is also built for the "no tail" and "tail detached" arrows, named `working[_arrow_style]_[animation].ani` (for example `working_no_tail_pulse.ani`). The `busy` cursor has no arrow in it, so it is simply `busy_pulse.ani`, `busy_bounce.ani` or `busy_ripple.ani`.
+
+Other changes:
+- Added an `.inf` installer for every combination of arrow style and loading animation (12 in total). Each one installs into its own folder under `C:\Windows\Cursors` and registers a separate scheme name, so several of them can be installed and compared side by side
+- Moved all cursors and installers into the `src` folder
+- Updated the README: new banner, showcase table now lists `arrow_no_tail_smaller`, and the install instructions point to the "Code" > "Download ZIP" button
+
 ### 3.6.1
 - Removed the assymetric corner pixel in regular arrow cursors (`arrow`, `help` and `working`)
 - Fixed some visual inconsitencies in the `working_tail_detached` cursor
